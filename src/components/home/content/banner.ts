@@ -1,0 +1,41 @@
+export const banners = [
+  {
+    img: "/home.png",
+    alt: "Recharge Illustration",
+    title: "You P I – Recharge Now. Pay Smart.",
+    subtitle: "India's first fintech platform where recharges meet payments.",
+    highlight: "Why pay all at once, when you can pay in 3 stress-free parts?",
+    desc: "Split your 3-month mobile recharge into 3 interest-free payments.",
+    extra: "No credit card. No KYC. No hidden charges. Works with Jio, Airtel, Vi, and more.",
+    cta: "Explore Plans",
+    ctaHref: "#plans",
+  },
+  {
+    img: "/banner2.png",
+    alt: "Instant Pay-Later Approval",
+    title: "Instant Pay-Later Approval",
+    subtitle: "Get approved for Pay-Later in seconds.",
+    highlight: "No paperwork. No waiting.",
+    desc: "Experience seamless onboarding and start splitting your recharges instantly.",
+    extra: "100% digital process. Your privacy, our priority.",
+    cta: "Get Started",
+    ctaHref: "#contact",
+  },
+  {
+    img: "/banner3.png",
+    desc: "Experience seamless onboarding and start splitting your recharges instantly.",
+    extra: "100% digital process. Your privacy, our priority. Stay on track with smart notifications. No hidden charges, ever.",
+    cta: "Learn More",
+    ctaHref: "#services",
+  },
+  {
+    img: "/banner4.png",
+    alt: "Trusted & Secure",
+    title: "Trusted & Secure",
+    subtitle: "Your data is protected with bank-grade security.",
+    highlight: "Recharge with confidence.",
+    desc: "We use advanced encryption and never share your information. Pay when it suits you best, with reminders and no late fees.",
+    extra: "24/7 support. Trusted by thousands of users.",
+  },
+];
+

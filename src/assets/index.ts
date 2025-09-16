@@ -1,0 +1,5 @@
+export { default as TelecomOperaterImg } from "./aboutUsImages/mobile_recharge.jpg"
+export { default as BannerIMG1 } from "./aboutUsImages/cropped-mobile-recharge-banner.webp"
+export { default as BannerIMG2 } from "./aboutUsImages/banner.jpg"
+export { default as Imgtop } from "./aboutUsImages/Untitled.jpg"
+export { default as Imgtop2 } from "./aboutUsImages/Untitled1.jpg"
