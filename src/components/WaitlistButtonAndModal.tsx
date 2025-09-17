@@ -33,11 +33,12 @@ const WaitlistButtonAndModal: React.FC = () => {
     setLoading(true);
 
     try {
-      await axios.post("http://localhost:3001/api/v1/waitlist", {
+      const res=await axios.post("https://telecom-backend-vqt8.onrender.com/api/v1/waitlist", {
         name,
         email,
         phone: mobile,
       });
+      console.log(res)
 
       toast.success("You’ve joined the waitlist! 🎉");
       setShowWaitlist(false);

@@ -32,8 +32,10 @@ const ContactForm: React.FC = () => {
     e.preventDefault();
     setSending(true);
     try {
-      await axios.post("/api/v1/userContact", form);
+      const res=await axios.post("https://telecom-backend-vqt8.onrender.com/api/v1/userContact", form);
+      console.log(res)
       toast.success("Message sent successfully!");
+      
       setForm({
         name: "",
         email: "",
